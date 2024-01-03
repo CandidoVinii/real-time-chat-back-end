@@ -7,7 +7,7 @@ const io = require('socket.io')(server, {
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0.t76sydz.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://vinicius:<password>@cluster0.cm973d3.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
 
 const Message = mongoose.model('Message', {
     text: String,
